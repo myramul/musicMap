@@ -1,0 +1,70 @@
+*{
+    background-color: #1f1f1f;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    overflow: show;
+}
+
+header{
+    display: block;
+    margin-top: 35px;
+    font-weight: bolder;
+    color: #fa576a;
+    font-size: 90px;
+}
+
+#description{
+    margin-top: 10px;
+    margin-bottom: 70px;
+    font-size: 30px;
+    color: #e5e5e5;
+    font-style: italic;
+}
+
+#songInfo{
+    line-height: 120%;
+    font-size: 50px;
+    display: none;
+    margin-bottom: 75px;
+}
+#albumCover{
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 8px;
+    display: inline-block;
+}
+#songTitleandArtist{
+    display: inline-block;
+}
+#songTitle{
+    color:#e5e5e5;
+    font-weight: bold;
+    text-align: left;
+}
+#artistName{
+    color: #fa576a;
+    text-align: left;
+}
+
+svg path{
+    cursor: pointer;
+}
+
+#name{
+    position: absolute;
+    background-color: #252526;
+    width: fit-content;
+    opacity: 0;
+    border-radius: 5px;
+    color: #e5e5e5;
+    padding: 0 5px;
+    font-size: 1.5rem;
+}
+
+#countryName{
+    font-style: italic;
+    color: #787878; 
+    font-size: 30px;
+    text-align: left;
+}
